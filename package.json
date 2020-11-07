@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "### A finalidade desse projeto é somente para estudos",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/ -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusoliveira95/semana-javascript-expert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusoliveira95/semana-javascript-expert/issues"
+  },
+  "homepage": "https://github.com/viniciusoliveira95/semana-javascript-expert#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
